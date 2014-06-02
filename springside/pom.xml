@@ -17,12 +17,7 @@
 		</dependency>
 
 		<!-- PERSISTENCE begin -->
-		<!-- hibernate -->
-		<dependency>
-			<groupId>org.hibernate</groupId>
-			<artifactId>hibernate-entitymanager</artifactId>
-			<version>${hibernate.version}</version>
-		</dependency>
+
 
 		<!-- spring data access -->
 		<dependency>
@@ -100,12 +95,6 @@
 		</dependency>
 		<!-- SECURITY end -->
 
-		<!-- JSR303 BeanValidator -->
-		<dependency>
-			<groupId>org.hibernate</groupId>
-			<artifactId>hibernate-validator</artifactId>
-			<version>${hibernate-validator.version}</version>
-		</dependency>
 
 		<!-- jetty -->
 		<dependency>
